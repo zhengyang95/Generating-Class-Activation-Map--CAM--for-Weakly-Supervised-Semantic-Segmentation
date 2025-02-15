@@ -1,4 +1,5 @@
-# Class Activation Map (CAM) generation and evaluation for Weakly Supervised Semantic SegmentationThis repository contains allows you to train a classification network which is based on ResNet-50.
+# Class Activation Map (CAM) generation and evaluation for Weakly Supervised Semantic Segmentation
+This repository contains allows you to train a classification network which is based on ResNet-50.
 Class Activation Map (CAM) can be generated from the trained model.
 
 The mean Intersection-over-union (mIoU) is used to evaluate the accuracy of CAM.
