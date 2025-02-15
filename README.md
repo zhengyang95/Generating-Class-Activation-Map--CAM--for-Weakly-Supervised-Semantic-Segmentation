@@ -1,5 +1,4 @@
-# Classification network training and Class Activation Map (CAM) generation and evaluation
-This repository contains allows you to train a classification network which is based on ResNet-50.
+# Class Activation Map (CAM) generation and evaluation for Weakly Supervised Semantic SegmentationThis repository contains allows you to train a classification network which is based on ResNet-50.
 Class Activation Map (CAM) can be generated from the trained model.
 
 The mean Intersection-over-union (mIoU) is used to evaluate the accuracy of CAM.
@@ -9,7 +8,6 @@ Remember to change all files' paths to your own paths.
 ## Prerequisite
 * Python 3.7, PyTorch 1.1.0, and more in requirements.txt
 * PASCAL VOC 2012 devkit
-* NVIDIA GPU with more than 1024 MB of memory
 
 ## Usage
 
@@ -56,4 +54,7 @@ python colorize.py
 ```
 * The pixel values of generated basic pseudo-masks in previous steps equal to the class number.
 * This file allows you to colorize the pseudo-masks.
+* 
+## Acknowledgements
 
+This repository is based on IRNet: https://github.com/jiwoon-ahn/irn. Thanks for their impressive work.
