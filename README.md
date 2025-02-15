@@ -55,7 +55,7 @@ python colorize.py
 ```
 * The pixel values of generated basic pseudo-masks in previous steps equal to the class number.
 * This file allows you to colorize the pseudo-masks.
-* 
+
 ## Acknowledgements
 
 This repository is based on IRNet: https://github.com/jiwoon-ahn/irn. Thanks for their impressive work.
